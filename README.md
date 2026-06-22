@@ -14,7 +14,7 @@ Built on Raspberry Pi 4 + ROS2 Humble + STM32F103 + ESP32.
 * Web Dashboard: rosbridge + vanilla JS
 
 ## System Architecture
-
+```text
 ┌─────────────────────────────────────────────────────┐
 │                Raspberry Pi 4                       │
 │  ┌──────────┐  ┌──────────┐  ┌──────────────────┐   │
@@ -49,7 +49,7 @@ Built on Raspberry Pi 4 + ROS2 Humble + STM32F103 + ESP32.
 │                ESP32 (Expression Module)            │
 │  SPI Bus -> 2x GC9A01 Round LCDs (Interactive Eyes) │
 └─────────────────────────────────────────────────────┘
-
+```
 ## Repository Structure
 
 * /docs: Setup guides, wiring diagrams, and motor shield datasheets.
